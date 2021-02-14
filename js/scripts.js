@@ -8,8 +8,13 @@ for (var i=1; i<=str; i++) {
 }
 let numString = numArray.toString().split(",")
 for(var j=0; j<=str; j++) {
-  if (numString[j] === "Beep") {
-    numString[j] = ""
-  } 
-numArray
+  if (numString[j].includes(3) === true) {
+    numString[j] = "Won't you be my neighbor?"
+  } else if(numString[j].includes(2) === true) {
+    numString[j] = "boop"
+ 
+    // do nothing
+  }
 }
+numString
+

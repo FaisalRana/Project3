@@ -8,12 +8,19 @@
   <title>Robogers Neighborhood</title>
 </head>
 <body>
-  <h1>Welcome to Mr. Robogers Neighborhood!</h1>
-  <form id=formR>
-    <label for="inputI">Please enter number:</label><br>
-    <input type="number" id="inputI" name="inputInteger" min="1" max="10000">
-    <input type="submit" value="Submit">
-  </form>
-  
+  <div class="container-fluid">
+    <div class="jumbotron">
+      <h1>Welcome to Mr. Robogers Neighborhood!</h1>
+      <form id=formR>
+        <label for="inputI">Input:</label>
+        <input type="number" id="inputI" name="inputInteger" min="1" max="10000">
+        <input type="submit" value="Submit">
+      </form>
+      <div id="hiddenoutput">
+        <h2>Output:</h2>
+        <p id="result"></p>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

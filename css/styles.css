@@ -1,0 +1,32 @@
+#hiddenoutput {
+  color:rgb(211, 134, 1);
+  padding: 35px;
+  padding-bottom: 5px;
+  font-family:'Courier New', Courier, monospace;
+  float:center;   
+  display:none;
+}
+
+#formR {
+  color:rgb(211, 134, 1);
+  padding: 100px;
+  padding-left: 400px;
+  font-family:'Courier New', Courier, monospace;
+  float:center;  
+  border-radius: 2px;
+}
+
+body {
+  background-color: black
+}
+h1 {
+  color:rgb(82, 211, 1);
+  padding: 35px;
+  padding-bottom: 5px;
+  font-family:'Courier New', Courier, monospace;
+  text-align:center;
+  font-weight:bold;
+}
+
+
+

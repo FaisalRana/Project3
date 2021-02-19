@@ -25,9 +25,20 @@ Expect(RoboTran(4).toEqual([“1”, “2”, “3”, “4”])
 
 Test: If the elements of the array contain a 3, it will replace it with “Won’t you be my neighbor” Expect(RoboTran(4).toEqual([“1”, “2”, “Won’t you be my neighbor”, “4”])
 
-Test: If the elements of the array contain a 2, it will replace it with “Won’t you be my neighbor” Expect(RoboTran(4).toEqual([“1”, “boop”, “Won’t you be my neighbor”, “4”])
+Test: If the elements of the array contain a 2, it will replace it with “Boop”
+ Expect(RoboTran(4).toEqual([“1”, “boop”, “Won’t you be my neighbor”, “4”])
 
-Test: If the elements of the array contain a 1, it will replace it with “Won’t you be my neighbor” Expect(RoboTran(4).toEqual([“beep”, “boop”, “Won’t you be my neighbor”, “4”])
+Test: If the elements of the array contain a 1, it will replace it with “beep"
+ Expect(RoboTran(4).toEqual([“beep”, “boop”, “Won’t you be my neighbor”, “4”])
+
+Test: If the elements of the array contain a 13, it will replace it with “Won’t you be my neighbor” Expect(RoboTran([13]).toEqual(“Won’t you be my neighbor”)
+
+Test: If the elements of the array contain a 13, it will replace it with “Won’t you be my neighbor” Expect(RoboTran([21]).toEqual("Boop")
+
+Test: If the elements of the array contain a 32, it will replace it with “Won’t you be my neighbor” Expect(RoboTran([32]).toEqual(“Won’t you be my neighbor”)
+
+Test: It should convert the array of numbers to a string with spaces
+ Expect(RoboTran(5).toEqual("beep boop Won't you be my neighbor? 4 5")
 
 
 ## Program setup instructions

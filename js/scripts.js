@@ -26,7 +26,7 @@ $(document).ready(function() {
   $('#formR').submit(function(event) {
     Robotran(number);
     $('#hiddenoutput').show();
-   $('p').append(numArray);
-   event.preventDefault();
-   });
+    $('p').append(numArray);
+    event.preventDefault();
   });
+});
